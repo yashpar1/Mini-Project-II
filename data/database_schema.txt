@@ -1,0 +1,9 @@
+CREATE TABLE sqlite_sequence(name,seq);
+CREATE TABLE foursquare_places (
+        id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, categories TEXT, location TEXT, popularity DECIMAL, rating DECIMAL);
+CREATE TABLE foursquare_categories (
+        id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, category_one TEXT, category_two TEXT, category_three TEXT);
+CREATE TABLE yelp_places (
+        id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, categories TEXT, location TEXT, popularity INTEGER, rating DECIMAL);
+CREATE TABLE google_places (
+        id INTEGER PRIMARY KEY AUTOINCREMENT, name TEXT, categories TEXT, location TEXT, popularity INTEGER, rating DECIMAL);
